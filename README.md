@@ -7,8 +7,10 @@
 ![GitHub forks](https://img.shields.io/github/forks/MulukenMathewos/alx-files_manager?logo=github&style=falt)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/MulukenMathewos/alx-files_manager?logo=github)
 
+## Overview
 This project is a culmination of key back-end concepts including authentication, Node.js, MongoDB, Redis, pagination, and background processing. The primary objective is to create a simple platform for uploading and viewing files with the following features:
 
+## Features
 - User authentication via a token
 - List all files
 - Upload a new file
@@ -16,9 +18,11 @@ This project is a culmination of key back-end concepts including authentication,
 - View a file
 - Generate thumbnails for images
 
-# Table of Contents
+## Table of Contents
 - [Files Manager](#files-manager)
-- [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Features](#features)
+  - [Table of Contents](#table-of-contents)
   - [Requirements](#requirements)
     - [Applications](#applications)
     - [APIs](#apis)
