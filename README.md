@@ -23,8 +23,7 @@ This project is a culmination of key back-end concepts including authentication,
   - [Overview](#overview)
   - [Features](#features)
   - [Table of Contents](#table-of-contents)
-  - [Instalation](#instalation)
-  - [Requirements](#requirements)
+  - [System Requirements](#system-requirements)
     - [Applications](#applications)
     - [APIs](#apis)
     - [Environment Variables](#environment-variables)
@@ -32,9 +31,10 @@ This project is a culmination of key back-end concepts including authentication,
   - [Usage](#usage)
   - [Tests](#tests)
 
-## Instalation
-
-## Requirements
+## System Requirements
+- Node.js: 16.x
+- npm: 8.x
+- yarn: 1.x
 
 ### Applications
 
