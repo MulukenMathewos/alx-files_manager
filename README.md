@@ -33,9 +33,9 @@ The project incorporates the following features:
   - [Table of Contents](#table-of-contents)
   - [System Requirements](#system-requirements)
   - [Dependencies](#dependencies)
+  - [Installation](#installation)
     - [APIs](#apis)
     - [Environment Variables](#environment-variables)
-  - [Installation](#installation)
   - [Usage](#usage)
   - [Tests](#tests)
 
@@ -58,6 +58,37 @@ The project incorporates the following features:
 - sha1: ^1.1.1
 - uuid: ^8.2.0
 
+## Installation
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/MulukenMathewos/alx-files_manager.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd alx-files_manager
+   ```
+
+3. Install the required dependencies:
+
+   ```bash
+   npm install
+   ```
+   or
+   ```bash
+   npm yarn install
+   ```
+4. run the server
+   ```bash
+   yarn start-server
+   ```
+   or
+   ```bash
+   yarn start-server
+```
+
 ### APIs
 
 + A Google API should be created with at least an email sending scope and a valid URL (e.g.; `http://localhost:5000/`) should be one of the redirect URIs. The `credentials.json` file should be stored in the root directory of this project.
@@ -74,11 +105,6 @@ The required environment variables should be stored in a file named `.env` and e
 | DB_PORT | No (Default: `27017`)| The database port. |
 | DB_DATABASE | No (Default: `files_manager`)| The database name. |
 | FOLDER_PATH | No (Default: `/tmp/files_manager` (Linux, Mac OS X) & `%TEMP%/files_manager` (Windows)) | The local folder where files are saved. |
-
-## Installation
-
-+ Clone this repository and switch to the cloned repository's directory.
-+ Install the packages using `yarn install` or `npm install`.
 
 ## Usage
 
