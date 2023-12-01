@@ -1,12 +1,15 @@
-# Short Specialization Curriculum
 # Files Manager
+![banner](img/banner.png)
 
-[![Coverage Status](https://coveralls.io/repos/github/MulukenMathewos/alx-files_manager/badge.svg?branch=main)](https://coveralls.io/github/MulukenMathewos/alx-files_manager?branch=main)
+![GitHub repo size](https://img.shields.io/github/repo-size/MulukenMathewos/alx-files_manager)
+![GitHub issues](https://img.shields.io/github/issues/MulukenMathewos/alx-files_manager)
+![GitHub Repo stars](https://img.shields.io/github/stars/MulukenMathewos/alx-files_manager?logo=github&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/MulukenMathewos/alx-files_manager?logo=github&style=falt)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/MulukenMathewos/alx-files_manager?logo=github)
 
 A simple file management API built with Express, MongoDB, Redis, Bull, and Node.js.
 
 # Table of Contents
-- [Short Specialization Curriculum](#short-specialization-curriculum)
 - [Files Manager](#files-manager)
 - [Table of Contents](#table-of-contents)
   - [Requirements](#requirements)
