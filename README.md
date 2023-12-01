@@ -34,10 +34,9 @@ The project incorporates the following features:
   - [System Requirements](#system-requirements)
   - [Dependencies](#dependencies)
   - [Installation](#installation)
+  - [Tests](#tests)
     - [APIs](#apis)
     - [Environment Variables](#environment-variables)
-  - [Usage](#usage)
-  - [Tests](#tests)
 
 ## System Requirements
 - Node.js: 16.x
@@ -89,6 +88,13 @@ The project incorporates the following features:
    yarn start-server
     ```
 
+## Tests
+
+To run end-to-end tests, follow these steps:
+
+1. Create a separate `.env` file for tests, named `.env.test`.
+2. Store the values of environment variables for testing events in the `.env.test` file.
+3. Run the tests using the command `yarn test` or `npm run test`.
 
 ### APIs
 
@@ -106,12 +112,3 @@ The required environment variables should be stored in a file named `.env` and e
 | DB_PORT | No (Default: `27017`)| The database port. |
 | DB_DATABASE | No (Default: `files_manager`)| The database name. |
 | FOLDER_PATH | No (Default: `/tmp/files_manager` (Linux, Mac OS X) & `%TEMP%/files_manager` (Windows)) | The local folder where files are saved. |
-
-## Usage
-
-Start the Redis and MongoDB services on your system and run `yarn start-server` or `npm run start-server`.
-
-## Tests
-
-+ Create a separate `.env` file for the tests named `.env.test` and store the value of the environment variables for the testing event in it.
-+ Run `yarn test` or `npm run test` to execute the E2E tests.
