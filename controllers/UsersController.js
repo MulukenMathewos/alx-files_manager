@@ -5,7 +5,16 @@ import dbClient from '../utils/db';
 
 const userQueue = new Queue('email sending');
 
+/**
+ * Controller class for handling user-related operations.
+ */
 export default class UsersController {
+  /**
+   * Create a new user.
+   * @param {Object} req - The request object.
+   * @param {Object} res - The response object.
+   * @returns {Promise<void>} - A promise that resolves when the operation is complete.
+   */
   static async postNew(req, res) {
     const email = req.body ? req.body.email : null;
     const password = req.body ? req.body.password : null;
