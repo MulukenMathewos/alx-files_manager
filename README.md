@@ -37,6 +37,7 @@ The project incorporates the following features:
   - [Tests](#tests)
     - [APIs](#apis)
     - [Environment Variables](#environment-variables)
+  - [contributors](#contributors)
 
 ## System Requirements
 - Node.js: 16.x
@@ -112,3 +113,8 @@ The required environment variables should be stored in a file named `.env` and e
 | DB_PORT | No (Default: `27017`)| The database port. |
 | DB_DATABASE | No (Default: `files_manager`)| The database name. |
 | FOLDER_PATH | No (Default: `/tmp/files_manager` (Linux, Mac OS X) & `%TEMP%/files_manager` (Windows)) | The local folder where files are saved. |
+
+## contributors
+<a href="https://github.com/MulukenMathewos/alx-files_manager/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MelakuDemeke/CVComposer" />
+</a>
