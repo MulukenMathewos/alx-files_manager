@@ -24,6 +24,7 @@ This project is a culmination of key back-end concepts including authentication,
   - [Features](#features)
   - [Table of Contents](#table-of-contents)
   - [System Requirements](#system-requirements)
+  - [Dependencies](#dependencies)
     - [Applications](#applications)
     - [APIs](#apis)
     - [Environment Variables](#environment-variables)
@@ -36,6 +37,19 @@ This project is a culmination of key back-end concepts including authentication,
 - npm: 8.x
 - yarn: 1.x
 
+## Dependencies
+- bull: ^3.16.0
+- chai-http: ^4.3.0
+- dotenv: ^16.0.1
+- express: ^4.17.1
+- googleapis: ^101.0.0
+- image-thumbnail: ^1.0.10
+- mime-message: ^0.1.3
+- mime-types: ^2.1.27
+- mongodb: ^3.5.9
+- redis: ^2.8.0
+- sha1: ^1.1.1
+- uuid: ^8.2.0
 ### Applications
 
 + Node.js
