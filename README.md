@@ -5,6 +5,18 @@
 
 A simple file management API built with Express, MongoDB, Redis, Bull, and Node.js.
 
+# Table of Contents
+- [Short Specialization Curriculum](#short-specialization-curriculum)
+- [Files Manager](#files-manager)
+- [Table of Contents](#table-of-contents)
+  - [Requirements](#requirements)
+    - [Applications](#applications)
+    - [APIs](#apis)
+    - [Environment Variables](#environment-variables)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Tests](#tests)
+
 ## Requirements
 
 ### Applications
