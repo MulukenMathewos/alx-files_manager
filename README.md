@@ -11,12 +11,20 @@
 This project is a culmination of key back-end concepts including authentication, Node.js, MongoDB, Redis, pagination, and background processing. The primary objective is to create a simple platform for uploading and viewing files with the following features:
 
 ## Features
-- User authentication via a token
-- List all files
-- Upload a new file
-- Change permission of a file
-- View a file
-- Generate thumbnails for images
+
+The project incorporates the following features:
+
+1. **User Authentication via Token:** Users can authenticate themselves using a token-based system, ensuring secure access to the platform.
+
+2. **List All Files:** The platform allows users to view a comprehensive list of all uploaded files.
+
+3. **Upload a New File:** Users can seamlessly upload new files to the platform, contributing to the repository of available resources.
+
+4. **Change Permission of a File:** File permissions are dynamic, allowing users to modify access levels as needed.
+
+5. **View a File:** Users can preview the content of a file directly within the platform.
+
+6. **Generate Thumbnails for Images:** For image files, the system automatically generates thumbnails, enhancing the user experience.
 
 ## Table of Contents
 - [Files Manager](#files-manager)
@@ -25,7 +33,6 @@ This project is a culmination of key back-end concepts including authentication,
   - [Table of Contents](#table-of-contents)
   - [System Requirements](#system-requirements)
   - [Dependencies](#dependencies)
-    - [Applications](#applications)
     - [APIs](#apis)
     - [Environment Variables](#environment-variables)
   - [Installation](#installation)
@@ -50,10 +57,6 @@ This project is a culmination of key back-end concepts including authentication,
 - redis: ^2.8.0
 - sha1: ^1.1.1
 - uuid: ^8.2.0
-### Applications
-
-+ Node.js
-+ Yarn (the package manager/resource negotiator)
 
 ### APIs
 
