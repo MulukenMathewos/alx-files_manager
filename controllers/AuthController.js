@@ -2,7 +2,16 @@
 import { v4 as uuidv4 } from 'uuid';
 import redisClient from '../utils/redis';
 
+/**
+ * AuthController class responsible for handling authentication related operations.
+ */
 export default class AuthController {
+  /**
+   * Handles the request to connect a user.
+   * @param {Object} req - The request object.
+   * @param {Object} res - The response object.
+   * @returns {Promise<void>} - A promise that resolves when the operation is complete.
+   */
   static async getConnect(req, res) {
     const { user } = req;
     const token = uuidv4();
@@ -11,6 +20,12 @@ export default class AuthController {
     res.status(200).json({ token });
   }
 
+  /**
+   * Handles the request to disconnect a user.
+   * @param {Object} req - The request object.
+   * @param {Object} res - The response object.
+   * @returns {Promise<void>} - A promise that resolves when the operation is complete.
+   */
   static async getDisconnect(req, res) {
     const token = req.headers['x-token'];
 
