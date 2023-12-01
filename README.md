@@ -23,6 +23,7 @@ This project is a culmination of key back-end concepts including authentication,
   - [Overview](#overview)
   - [Features](#features)
   - [Table of Contents](#table-of-contents)
+  - [Instalation](#instalation)
   - [Requirements](#requirements)
     - [Applications](#applications)
     - [APIs](#apis)
@@ -30,6 +31,8 @@ This project is a culmination of key back-end concepts including authentication,
   - [Installation](#installation)
   - [Usage](#usage)
   - [Tests](#tests)
+
+## Instalation
 
 ## Requirements
 
