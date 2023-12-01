@@ -7,7 +7,14 @@
 ![GitHub forks](https://img.shields.io/github/forks/MulukenMathewos/alx-files_manager?logo=github&style=falt)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/MulukenMathewos/alx-files_manager?logo=github)
 
-A simple file management API built with Express, MongoDB, Redis, Bull, and Node.js.
+This project is a culmination of key back-end concepts including authentication, Node.js, MongoDB, Redis, pagination, and background processing. The primary objective is to create a simple platform for uploading and viewing files with the following features:
+
+- User authentication via a token
+- List all files
+- Upload a new file
+- Change permission of a file
+- View a file
+- Generate thumbnails for images
 
 # Table of Contents
 - [Files Manager](#files-manager)
