@@ -1,7 +1,7 @@
 # Short Specialization Curriculum
 # Files Manager
 
-[![Coverage Status](https://coveralls.io/repos/github/B3zaleel/alx-files_manager/badge.svg?branch=main)](https://coveralls.io/github/B3zaleel/alx-files_manager?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/MulukenMathewos/alx-files_manager/badge.svg?branch=main)](https://coveralls.io/github/MulukenMathewos/alx-files_manager?branch=main)
 
 A simple file management API built with Express, MongoDB, Redis, Bull, and Node.js.
 
@@ -42,7 +42,3 @@ Start the Redis and MongoDB services on your system and run `yarn start-server` 
 
 + Create a separate `.env` file for the tests named `.env.test` and store the value of the environment variables for the testing event in it.
 + Run `yarn test` or `npm run test` to execute the E2E tests.
-
-## Documentation
-
-+ TODO: Generate OpenAPI documentation with [**apidoc**](https://www.npmjs.com/package/apidoc).
